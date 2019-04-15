@@ -82,7 +82,7 @@ For more information, please refer to [Unlicense](http://unlicense.org).
 
 ## Autor(es)
 
-- Ignacio Rivera F. - [@mail](mail:ignaciojnr@gmail.com)
-- Ignacio Fuenzalida V.- [??]()
+- Ignacio Rivera F. 
+- Ignacio Fuenzalida V.
 
- [Back To The Top](#Problema Maestros Desatornilladores)
+ [Back To The Top](#Problema\ Maestros\ Desatornilladores)
