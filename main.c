@@ -7,7 +7,7 @@
 #include <semaphore.h>
 #include <sys/wait.h>
 #include <sys/mman.h>
-
+#include <time.h>
 
 void destornillador();
 
@@ -24,6 +24,9 @@ int main(void){
     //Crearemos n - 1 procesos ya que el padre tambien trabajara.
     for(int i = 0; i < nHijos - 1; i++){
         int pid = fork();
+        //semilla para numeros seudo aleatorios
+        srand(time(NULL)*getpid());
+        //si el proceso es un hijo:
         if(pid == 0){
             num_hijo = i + 1;
             while(contador <10)
@@ -48,12 +51,12 @@ int main(void){
 
 void destornillador(){
     sem_wait(mutex);
-
-    int random = rand() % (3 + 1 - 1) + 1; // Pensar 1 - 3 segundos
+    // Pensar 1 - 3 segundos
+    int random = rand() % (3 + 1 - 1) + 1;
     printf("Maestro %d piensa por %d segundos.\n",num_hijo,random);
     sleep(random);
-
-    random = rand() % (5 + 1 - 2) + 2; // atornillar 2 - 5
+    // atornillar 2 - 5
+    random = rand() % (5 + 1 - 2) + 2;
     for(int i = 0; i < random; i++){
         if(contador == 10)
             break;
