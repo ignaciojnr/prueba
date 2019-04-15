@@ -1,5 +1,5 @@
-#Problema Maestros Desatornilladores
-##Taller 1 sistemas operativos
+# Problema Maestros Desatornilladores
+## Taller 1 sistemas operativos
 > Recursos compartidos entre procesos
 
 ---
