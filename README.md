@@ -11,7 +11,7 @@
 - [Requerimientos](#Requerimientos)
 - [Instrucciones](#Instrucciones)
 - [Licensia](#Licensia)
-- [Autor(es)](#Autor(es))
+- [Autores](#Autores)
 
 ---
 
@@ -19,11 +19,12 @@
 
 Codigo "C" hecho en cumplimiento de la asignatura de Sistemas Operativos de la Univercidad Catolica del Norte 
 
-#### Requerimientos
+---
+
+## Requerimientos
 
 - Sistema operativo basado en linux
 - GNU Compiler Collection 
-
 
 ---
 
@@ -80,7 +81,7 @@ For more information, please refer to [Unlicense](http://unlicense.org).
 
 ---
 
-## Autor(es)
+## Autores
 
 - Ignacio Rivera F. 
 - Ignacio Fuenzalida V.
